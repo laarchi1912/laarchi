@@ -1,0 +1,103 @@
+#container {
+    background-color: blanchedalmond;
+    margin: 0px auto;
+    width: 800px;
+}
+
+body {
+    margin: 0px;
+}
+
+/*以下是導覽列*/
+
+.navbar {
+    background-color: brown;
+    text-align: right;
+
+}
+
+.navbar ol {
+    margin: 0px;
+    margin-right: 12px;
+}
+
+.navbar li {
+    list-style-type: none;
+    display: inline-block;
+}
+
+.navbar li a {
+    display: block;
+    text-decoration: none;
+    padding: 10px;
+    color: white;
+}
+
+.navbar li a:hover {
+    background-color: aliceblue;
+    color: brown;
+}
+
+/*以上是導覽列*/
+
+/*以下是作品*/
+
+.arti {
+    background-color: rgb(0, 42, 53);
+    text-align: left;
+}
+
+.arti ol {
+    margin: 0px;
+    margin-left: 12px;
+}
+
+.arti li {
+    list-style-type: none;
+    display: grid;
+}
+
+.arti li a {
+    display: block;
+    text-decoration: none;
+    padding: 5px;
+    color: white;
+}
+
+.arti li a:hover {
+    background-color: aliceblue;
+    color: rgb(0, 42, 53);
+}
+
+/*以上是作品*/
+
+/*以下是學歷*/
+
+.education {
+    background-color: rgb(51, 32, 0);
+    text-align: left;
+}
+
+.education ol {
+    margin: 0px;
+    margin-left: 12px;
+}
+
+.education li {
+    list-style-type: decimal;
+    display: grid;
+}
+
+.education li a {
+    display: block;
+    text-decoration: none;
+    padding: 5px;
+    color: white;
+}
+
+.education li a:hover {
+    background-color: aliceblue;
+    color: rgb(51, 32, 0);
+}
+
+/*以上是學歷*/

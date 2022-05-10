@@ -1,0 +1,31 @@
+body{
+    margin: 0px;
+}
+
+nav{
+    background-color: brown;
+    text-align: right;
+
+}
+
+nav ul{
+    margin: 0px;
+    margin-right: 12px;
+}
+
+nav li{
+    list-style-type: none;
+    display: inline-block;
+}
+
+nav li a{
+    display: block;
+    text-decoration: none;
+    padding: 10px;
+    color: white;
+}
+
+nav li a:hover{
+    background-color: aliceblue;
+    color: brown;
+}
