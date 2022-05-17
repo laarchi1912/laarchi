@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=UnifrakturMaguntia&display=swap');
+
+/*以下是導覽列設定*/
+
+body {
+    margin: 0px;
+}
+
+header {
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+}
+
+nav{
+    background-color: lightblue;
+}
+
+nav ul {
+    display: flex;
+    justify-content: right;
+    margin: 0px;
+}
+
+nav ul li {
+    list-style-type: none;
+    padding: 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: brown;
+    padding: 10px;
+}
+
+nav ul li a:hover{
+    color: lightblue;
+    background-color: brown;
+/*以下視作漸變的特效*/
+    transition: background-color 1s linear, color 1s ease-in;
+}
+
+/*以下是標題列設定*/
+
+.banner{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgba(173, 216, 230, 70%);
+}
+
+.title {
+    text-align: center;
+    font-family: 'UnifrakturMaguntia', cursive;
+}
+
+/*以下是相片清單樣式*/
+
+#photolist ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-left: 0px;
+}
+
+#photolist ul li {
+    list-style-type: none;
+    margin: 5px;
+}
+
+#photolist img {
+    border-radius: 10%;
+    box-shadow: 3px 3px 8px grey;
+}
+
+#photolist .emptyitem {
+    width: 200px;
+}
+
+.gotop {
+    font-size: 50px;
+    color: greenyellow;
+    position: fixed;
+    right: 5px;
+    bottom: 5px;
+}
